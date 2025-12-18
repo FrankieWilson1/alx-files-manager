@@ -1,26 +1,24 @@
 # Files Manager
 
 ## Description
-Files Manager is a simple platform for uploading and viewing files. This project is built using Node.js, Express, MongoDb, Redis, and Bull for background processing. It aims to demonstrate user authentication, file management, and image thumbnail generation.
+Files Manager is a collaborative file management application built as an ALX backend project. It provides a platform for users to upload, manage, and view files with advanced features like user authentication via tokens, image thumbnail generation, and background job processing. The application demonstrates core concepts of modern web development including RESTful API design, database management, and asynchronous job processing.
 
 ## Features
-- User authentication via token
-- List all uploaded files
-- Upload new files
-- Change new files
-- View files
-- Generate thumbnails for images
+- User authentication and token-based access control
+- File upload and management functionality
+- File listing and retrieval capabilities
+- Image thumbnail generation for uploaded images
+- Background job processing for asynchronous operations
+- File permission and access control management
 
 ## Technologies Used
-- **Node.js**: JavaScript runtime for server-side programming
-- **Express**: Web framework for building APIs
-- **MongoDB**: NoSQL database for storing file data
-- **Redis**: In-memory data structure store for caching
-- **Bull**: Queue library for hangling background jobs
-- **Mocha**: Testing framework for running tests
-- **Nodemon**: Tool for authomatically restarting the server during development
-- **Image-thumbnail**: Library for generating image thumbnails
-- **Mime-types**: Library for hangling MIME types
+- **Backend Runtime**: Node.js with Express.js framework
+- **Database**: MongoDB (NoSQL database for file data storage)
+- **Caching**: Redis (in-memory data structure store)
+- **Background Processing**: Bull (queue library for job handling)
+- **Testing**: Mocha testing framework
+- **Development Tools**: Nodemon (auto-restart), ESLint (code linting)
+- **Utilities**: Image-thumbnail (thumbnail generation), Mime-types (MIME type handling).
 
 ## Installation
 1. Clone the repository:
@@ -83,7 +81,9 @@ npm run lint
 
 | Name             | GitHub Profile                                       | X Profile                                 |
 |------------------|------------------------------------------------------|-------------------------------------------|
-| Frank W.     Ugwu| [yourusername](https://github.com/realfrankiewilson) |  [@frankwilies](https://x.com/frankwilies)|
-| Loubna           | [coauthorusername](https://github.com/Loubnaa1)      |  [@loubna](loubnaaddress)                 |
+| Frank W.     Ugwu| [Frank Ugwu Williams](https://github.com/frankiewilson1) |  [@frankwilies](https://x.com/frankwilies)|
+| Loubna           | [Loubna](https://github.com/Loubnaa1)      |  [@loubna](loubnaaddress)                 |
 
+### Note
+Migrated from early ALX backend specialization (2023–2024). Collaborative project with @Loubnaa1. Demonstrates full-stack JS skills: authentication, file handling, queuing with Bull, and NoSQL/Redis integration.
 
