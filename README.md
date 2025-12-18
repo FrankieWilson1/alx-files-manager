@@ -29,7 +29,7 @@ Files Manager is a collaborative file management application built as an ALX bac
 ```bash
   cd files_manager
 ```
-3. Install dependecies:
+3. Install dependencies:
 ```bash
   npm install
 ```
@@ -39,7 +39,7 @@ Files Manager is a collaborative file management application built as an ALX bac
 ##### Start the server
 To start the server, run:
 ```bash
-  npm run startt-server
+  npm run start-server
 ```
 
 #### Start the worker
@@ -56,13 +56,13 @@ To run tests, use:
 
 ## API Endpoints
 * #### POST /auth/login
-  Authenticate user and recieve a token
+  Authenticate user and receive a token
 * #### GET/files
   Retrieve a list of all files
 * #### POST/files/upload
   Upload a new file
 * #### GET/files/:id
-  Permissions of specific file.
+  Retrieve details and permissions for a specific file.
 * #### GET/files/:id/thumbnail
   Generate and retrieve thumbnail for an image
 
@@ -82,7 +82,10 @@ npm run lint
 | Name             | GitHub Profile                                       | X Profile                                 |
 |------------------|------------------------------------------------------|-------------------------------------------|
 | Frank W.     Ugwu| [Frank Ugwu Williams](https://github.com/frankiewilson1) |  [@frankwilies](https://x.com/frankwilies)|
-| Loubna           | [Loubna](https://github.com/Loubnaa1)      |  [@loubna](loubnaaddress)                 |
+| Loubna           | [Loubna](https://github.com/Loubnaa1)      |  [@loubna](https://x.com/loubnaa)                 |
+
+### Test Note:
+Includes comprehensive unit tests with Mocha/Chai.
 
 ### Note
 Migrated from early ALX backend specialization (2023–2024). Collaborative project with @Loubnaa1. Demonstrates full-stack JS skills: authentication, file handling, queuing with Bull, and NoSQL/Redis integration.
